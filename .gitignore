@@ -1,0 +1,17 @@
+# Environment files with secrets
+.env
+.env.local
+.env.prod
+
+# Docker Compose override files (if generated locally)
+docker-compose.override.yml
+
+# Docker volumes (local storage)
+redis-data/
+
+# Logs (if any)
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
