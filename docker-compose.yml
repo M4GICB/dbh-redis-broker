@@ -4,6 +4,7 @@ services:
   dbh-redis-broker:
     build: .
     container_name: dbh-redis-broker
+    image: dbh-redis-broker:latest
     env_file:
       - .env
     ports:
